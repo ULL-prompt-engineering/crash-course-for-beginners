@@ -6,7 +6,7 @@ import os
 
 load_dotenv()
 
-print(os.environ.get('OPENAI_API_KEY'))
+# print(os.environ.get('OPENAI_API_KEY'))
 
 def generate_pet_name(animal_type='dog'):
     llm = OpenAI(temperature=0.7) # max_tokens=10, top_p=1, frequency_penalty=0.5, presence_penalty=0.5)
