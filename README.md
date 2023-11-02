@@ -1,3 +1,5 @@
+## References
+
 * [Langchain crash course for beginners](https://youtu.be/lG7Uxts9SXs?si=0CxHPGlGftY_wZU9)
 * [Gabriel Jonay vera email](https://mail.google.com/mail/u/0/#search/alu0101398198%40ull.edu.es/FMfcgzGwHLqjpMrwkdSvJkkQXLWJvKss) 26/10/2023
 
@@ -91,3 +93,10 @@ I am using the `dotenv` module to load the environment variables from the `.env`
     (.venv) ➜  crash-course-for-beginners git:(main) ✗ python main.py
     {'animal_type': 'cat', 'text': '\n\n1. Felix \n2. Tiger \n3. Shadow \n4. Gizmo \n5. Rocky'}
     ```
+
+- Tag `pet-color` has also a `pet_color` template variable
+  
+  ```
+  (.venv) ➜  crash-course-for-beginners git:(main) ✗ python main.py
+  {'animal_type': 'cat', 'pet_color': 'calico', 'text': '\n\n1. Calico Catrina\n2. Calico Calypso\n3. Calico Calico\n4. Calico Clown\n5. Calico Comet'}
+  ```
