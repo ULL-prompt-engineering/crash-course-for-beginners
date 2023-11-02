@@ -100,3 +100,5 @@ I am using the `dotenv` module to load the environment variables from the `.env`
   (.venv) ➜  crash-course-for-beginners git:(main) ✗ python main.py
   {'animal_type': 'cat', 'pet_color': 'calico', 'text': '\n\n1. Calico Catrina\n2. Calico Calypso\n3. Calico Calico\n4. Calico Clown\n5. Calico Comet'}
   ```
+
+- See [streamlit](streamlit/README.md) notes 
