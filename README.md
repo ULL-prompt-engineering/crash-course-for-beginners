@@ -85,8 +85,9 @@ I am using the `dotenv` module to load the environment variables from the `.env`
 
 - Branch `llm-only` has the initial code using `dotenv` to load the environment variables from the `.env` file and the `openai` module and the `from langchain.llms import OpenAI` module.
 
+- Tag `template` contains template and chains:
 
-```
-(.venv) ➜  crash-course-for-beginners git:(main) ✗ python main.py
-{'animal_type': 'cat', 'text': '\n\n1. Felix \n2. Tiger \n3. Shadow \n4. Gizmo \n5. Rocky'}
-```
+    ```
+    (.venv) ➜  crash-course-for-beginners git:(main) ✗ python main.py
+    {'animal_type': 'cat', 'text': '\n\n1. Felix \n2. Tiger \n3. Shadow \n4. Gizmo \n5. Rocky'}
+    ```
